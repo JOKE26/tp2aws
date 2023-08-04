@@ -10,20 +10,6 @@ const App = ({ signOut, user }) => {
   const [ressources, setRessources] = useState([]);
 
 
-  const fetchApiData = async () => {
-    try {
-      const response = await API.get('apiMonitoring', '/ressources');
-      console.log('response AAAA A', response);
-      setRessources(response);
-    } catch (error) {
-      console.error('Error fetching API data:', error);
-    }
-  };
-
-  useEffect(() => {
-    fetchApiData(setRessources);
-  }, [user]);
-
   return (
   <div style={styles.container}>
     <Heading level={1}>Hello {user.attributes.email}</Heading>
