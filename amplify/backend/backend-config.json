@@ -59,6 +59,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_tp2awsdde3af77_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tp2awsdde3af77"
+        }
+      ]
+    },
+    "AMPLIFY_function_tp2awsdde3af77_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "tp2awsdde3af77"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {

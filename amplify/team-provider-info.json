@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-tp2aws-dev-201759-unauthRole",
       "StackName": "amplify-tp2aws-dev-201759",
       "StackId": "arn:aws:cloudformation:us-east-1:891839723436:stack/amplify-tp2aws-dev-201759/3f6995b0-32f3-11ee-a01e-0ab6626774d3",
-      "AmplifyAppId": "d20k89fgo71jhk"
+      "AmplifyAppId": "d20k89fgo71jhk",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-tp2aws-dev-201759-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
       "auth": {
@@ -22,7 +23,13 @@
         }
       },
       "function": {
-        "tp2awsdde3af77": {}
+        "tp2awsdde3af77": {
+          "deploymentBucketName": "amplify-tp2aws-dev-201759-deployment",
+          "s3Key": "amplify-builds/tp2awsdde3af77-414842656757714d3159-build.zip"
+        }
+      },
+      "api": {
+        "apia92058a4": {}
       }
     }
   }
