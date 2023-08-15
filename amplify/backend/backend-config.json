@@ -91,5 +91,22 @@
         }
       ]
     }
+  },
+  "storage": {
+    "s36aad0041": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "LambdaExecutionRole"
+          ],
+          "category": "function",
+          "resourceName": "tp2awsdde3af77"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
   }
 }
