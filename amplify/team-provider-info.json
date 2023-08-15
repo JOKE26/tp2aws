@@ -10,6 +10,20 @@
       "StackName": "amplify-tp2aws-dev-201759",
       "StackId": "arn:aws:cloudformation:us-east-1:891839723436:stack/amplify-tp2aws-dev-201759/3f6995b0-32f3-11ee-a01e-0ab6626774d3",
       "AmplifyAppId": "d20k89fgo71jhk"
+    },
+    "categories": {
+      "auth": {
+        "tp2aws9ffed712": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d20k89fgo71jhk",
+          "type": "cicd"
+        }
+      },
+      "function": {
+        "tp2awsdde3af77": {}
+      }
     }
   }
 }
